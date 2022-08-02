@@ -14,11 +14,9 @@ public class Student {
         this.diemTrungBinh = diemTrungBinh;
     }
 
-    
-
     @Override
     public String toString() {
-        return "Student [age=" + age + ", diemTrungBinh=" + diemTrungBinh + ", mssv=" + mssv + ", name=" + name + "]";
+        return "Student [name=" + name.trim() + ", mssv=" + mssv.trim() + ", age=" + age + ", diemTrungBinh=" + diemTrungBinh + "]";
     }
 
     public String getMssv() {

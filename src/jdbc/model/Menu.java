@@ -2,7 +2,9 @@ package jdbc.model;
 
 import java.util.ArrayList;
 
-import jdbc.dao.StudentDAO;
+import jdbc.dao.statement.StudentDAO;
+
+
 
 public class Menu {
 
@@ -35,6 +37,7 @@ public class Menu {
     }
 
     public static void showMenu() {
+        System.out.println("===============Menu===============");
         System.out.println("1.Them sinh vien vao csdl");
         System.out.println("2.Sua thong tin sinh vien trong csdl");
         System.out.println("3.Xoa thong tin sinh vien trong csdl");
