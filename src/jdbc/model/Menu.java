@@ -2,8 +2,7 @@ package jdbc.model;
 
 import java.util.ArrayList;
 
-import jdbc.dao.statement.StudentDAO;
-
+import jdbc.dao.preparestatement.StudentDAO;
 
 
 public class Menu {
